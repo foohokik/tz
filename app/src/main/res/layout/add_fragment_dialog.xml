@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="24dp"
+    android:paddingBottom="24dp"
+    android:layout_marginHorizontal="16dp"
+    android:background="@drawable/dialog_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/text_color"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:text="@string/add_ingredient" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout_title"
+        style="@style/Widget.Cocktails.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="@string/text_input_title_hint"
+        app:boxCornerRadiusBottomEnd="56dp"
+        app:boxCornerRadiusBottomStart="56dp"
+        app:boxCornerRadiusTopEnd="56dp"
+        app:boxCornerRadiusTopStart="56dp"
+        app:boxStrokeColor="@color/gray_ca"
+        app:boxStrokeErrorColor="@color/red"
+        app:boxStrokeWidth="1dp"
+        app:boxStrokeWidthFocused="1dp"
+        app:errorEnabled="true"
+        app:errorTextColor="@color/red"
+        app:helperText="@string/text_input_title_helper_text"
+        app:hintTextColor="@color/hint_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_view_photo"
+        app:placeholderText="@string/text_input_title_placeholder">
+
+        <requestFocus />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_title"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_solid_bg"
+        android:text="@string/button_save"
+        android:textColor="@color/white"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout_recipe" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_stroke_bg"
+        android:textAlignment="center"
+        android:text="@string/button_cancel"
+        android:textColor="@color/blue_4B"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_save" />
+
+</LinearLayout>

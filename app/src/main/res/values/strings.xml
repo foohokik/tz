@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_title">My cocktails</string>
+    <string name="main_description">Add your first cocktail here</string>
+
+    <string name="text_input_title_placeholder">Cocktail name</string>
+    <string name="text_input_title_hint">Title</string>
+    <string name="text_input_title_helper_text">Add title</string>
+
+    <string name="text_input_description_placeholder">Description</string>
+    <string name="text_input_description_hint">Description</string>
+    <string name="text_input_description_helper_text">Optional field</string>
+
+    <string name="text_input_recipe_placeholder">Recipe</string>
+    <string name="text_input_recipe_hint">Recipe</string>
+    <string name="text_input_recipe_helper_text">Optional field</string>
+
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_edit">Edit</string>
+    <string name="add_ingredients">Add ingredients!!!!</string>
+    <string name="add_ingredient">Add ingredient</string>
+
+    <string name="error_get_database">Error of getting data</string>
+    <string name="error_get_item_from_database">Error of getting element</string>
+
+    <string name="recipe_label">Recipe</string>
+</resources>
