@@ -9,3 +9,4 @@ Hilt для di, Clean architecture для архитектуры
 ![photo1691528119-3](https://github.com/foohokik/tz/assets/107697919/8821eedd-4746-4708-8c06-92880b6d930d)
 ![photo1691528119-4](https://github.com/foohokik/tz/assets/107697919/2f5f6c23-2489-4a42-af9a-9771a04e9745)
 ![photo1691528119-5](https://github.com/foohokik/tz/assets/107697919/a5706e39-7b43-42f3-8498-30583a74ad8b)
+[Uploading untitled.webm…]()
